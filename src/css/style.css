@@ -1,0 +1,366 @@
+/*
+	Colors:
+	#f7bb7b			orange
+	#f3f5ca			light yellow
+	#e0ddb0			dark yellow
+	#f4e9ba			yellow orange-ish	// hover color
+	#62624b			dark olive
+	#ecebe4			pale white
+	#e3b5a4			rose
+	#666a6e			gray
+*/
+
+@font-face {
+	font-family: 'sevastopol';
+	src: url('nintendobios.ttf');
+}
+
+@font-face 
+{
+	font-family: 'chr';
+	src: url('christiana.ttf');
+}
+
+html, body
+{	
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	background-color: #629de6;
+	color: #62624b;
+	
+	font-family: sevastopol, sans-serif;
+	font-size: 25px;
+	
+	overflow: hidden;
+}
+
+h1
+{	
+	text-align: center;
+	font-family: chr, sans-serif;
+	color: #f7bb7b;
+	
+	font-size: 35px;
+}
+
+h3
+{
+	text-align: center;
+	font-family: chr, sans-serif;
+	color: #f7bb7b;
+	
+	font-size: 18px;
+}
+
+h4
+{
+	font-family: chr, sans-serif;
+	color: #f7bb7b;
+	display: inline;
+	
+	font-size: 15px;
+}
+
+a.tab
+{
+	display: inline-block;
+	vertical-align: text-top;
+	width: 150px;
+	height: 90%;
+	
+	background-color: #666a6e;
+	color: #ffffff;
+}
+
+p
+{
+	text-align: justify;
+	text-indent: 40px;
+}
+
+a
+{
+	color: #f7bb7b;
+	text-decoration: none;
+	text-align: center;
+}
+
+img.full
+{
+	display: block;
+	padding: 5px;
+	width: 350px;
+	height: 350px;
+	
+	margin: 10% auto 0 auto;
+	background-color: #e3b5a4;
+	
+	border-radius: 500px;	
+}
+
+img.thumb
+{
+	width: 100%;
+	height: 100px;
+	width: 100px;
+	
+	border: solid 10px #e3b5a4;
+	border-radius: 100px;
+	background-color: #e3b5a4;
+}
+
+div.panel
+{
+	min-height: 1px;
+	width: 1000px;
+	margin: auto;
+}
+
+div.content
+{
+	background-color: #ffffff;
+
+	height: 80%;
+	padding: 10px 50px;
+	overflow-y: scroll;
+	
+	border: solid 10px #ffffff;
+	border-radius: 15px;
+}
+
+div.header 
+{
+	height: 10%;
+}
+
+div.column
+{
+	min-height: 1px;
+	float: left;
+}
+
+div.equal
+{
+	width: 45%;
+	padding: 0 15px;
+}
+
+div.small
+{
+	width: 40%;
+}
+
+div.large
+{
+	width: 60%;
+}
+
+div.info
+{
+	width: 90%;
+	background-color: #f3f5ca;
+	border: 10px solid #f7bb7b;
+	border-radius: 15px;
+	padding: 10px 20px;
+}
+
+div.cart 
+{
+	margin-bottom: 50px;
+	height: 60%;
+	width: 350px;
+	
+	background-color: #f3f5ca;
+	border: solid 10px #f7bb7b;
+	border-radius: 15px;
+	
+	position: fixed;
+	overflow-y: auto;
+}
+
+div.cart_item
+{
+	display: inline-block;
+	width: 85%;
+	padding: 10px 5px;
+	border-bottom: dashed 3px #e0ddb0;
+}
+
+div.cart_contents
+{
+	display: block;
+	overflow-y: auto;
+	height: 80%;
+	width: 90%;
+	
+	margin-left: 5%;
+}
+
+div.cart_item:hover
+{
+	background-color: #f4e9ba;
+}
+
+div.bottom
+{
+	margin-right: 5%;
+	text-align: right;
+	float: right;
+}
+
+div.thumb
+{
+	height: 90%;
+}
+
+div.entry
+{
+	background-color: #f3f5ca;
+	border: solid 10px #f7bb7b;
+	border-radius: 15px;
+	
+	width: 200px;
+	height: 350px;
+	margin: 0px 10px 25px 0px;
+	padding: 25px;
+
+	overflow: auto;
+	float: left;
+	text-align: center;
+}
+
+div.about
+{
+	padding: 25px 0px;
+	border: #f7bb7b solid;
+	border-width: 0px 20px;
+	margin: 5% auto;
+	text-align: center;
+}
+
+div.home 
+{
+	text-align: center;
+}
+
+div.disclaimer
+{
+	margin: auto;
+	font-size: 15px;
+	text-align: center;
+}
+
+legend
+{
+	padding: 0px 20px;
+	background-color: #f7bb7b;
+	color: #f3f5ca;
+	border-radius: 10px;
+}
+
+fieldset
+{
+	display: inline-block;
+	
+	width: 90%;
+	
+	border-radius: 15px;
+	border: 10px solid #f7bb7b;
+	background-color: #f3f5ca;
+	
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	
+	text-align: justify;
+}
+
+hr
+{
+	border-top: 3px dashed #f7bb7b;
+	border-bottom: none;
+	color: #f7bb7b;
+	noshade: noshade;
+}
+
+select
+{
+	color: #62624b;
+	border: solid 1px #f7bb7b;
+	
+	font-family: sevastopol, sans-serif;
+	font-size: 18px;
+}
+
+input
+{
+	color: #62624b;
+	font-family: sevastopol, sans-serif;
+	font-size: 19px;
+}
+
+input[type="button"]
+{
+	display: inline-block;	
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	vertical-align: text-top;
+	
+	border: 2px solid #f7bb7b;
+	border-radius: 25px;
+	background-color: #f3f5ca;
+	color: #f7bb7b;
+}
+
+input[type="button"]:hover
+{
+	background-color: #f4e9ba;
+}
+
+input[type='submit']
+{
+	padding: 1px 5px;
+	
+	border: none;
+	border-radius: 5px;
+	background-color: #f7bb7b;
+	text-align: center;
+}
+
+input[type='text']
+{
+	text-align: right;
+	border: solid 1px #f7bb7b;
+}
+
+span.item_name
+{
+	display: inline-block;
+	width: 80%;
+}
+
+span.item_qty
+{
+	display: inline-block;
+	margin-left: 25px;
+	width: 50%;
+	
+	vertical-align: text-top;
+}
+
+span.item_price
+{
+	display: inline-block;
+	float: right;
+	
+	vertical-align: text-top;
+}
+
+form.remove
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+	float: right;
+}
